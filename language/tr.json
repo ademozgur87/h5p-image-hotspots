@@ -1,52 +1,52 @@
 {
   "semantics": [
     {
-      "label": "Background image",
-      "description": "Image shown on background."
+      "label": "Arkaplan resmi",
+      "description": "Resim arkaplanda gösterilecektir."
     },
     {
-      "label": "Alternative text for background image",
-      "description": "If the browser can't load the image this text will be displayed instead. Also used by assistive technologies."
+      "label": "Arkaplan resmi için alternatif metin",
+      "description": "Eğer tarayıcı resmi yükleyemezse onun yerine bu metin gözükecek. Ayrıca sesli okuma gibi yardımcı teknolojilerce de kullanılır."
     },
     {
-      "label": "Hotspot color",
-      "description": "The color of the hotspots"
+      "label": "Odak Noktası (Hotspot) rengi",
+      "description": "Odak Noktalarının rengi"
     },
     {
-      "entity": "hotspot",
-      "label": "Hotspots",
+      "entity": "odak noktaları",
+      "label": "Odak Noktaları",
       "field": {
-        "label": "Hotspot",
+        "label": "Odak Noktası",
         "fields": [
           {
-            "label": "Hotspot position",
-            "description": "Click on the thumbnail image to place the hotspot"
+            "label": "Odak Noktası pozisyonu",
+            "description": "Odak Noktasını yerleştirmek için küçük resme tıklayın"
           },
           {
-            "label": "Cover entire background image",
-            "description": "When the user clicks the hotspot the popup will cover the entire background image"
+            "label": "Arkaplan resmini tamamen kapla",
+            "description": "Kullanıcı Odak Noktasına tıkladığında açılır pencere arkaplan resminin tamamını kaplar"
           },
           {
-            "label": "Header",
-            "description": "Optional header for the popup"
+            "label": "Başlık",
+            "description": "Açılır pencere için isteğe bağlı başlık"
           },
           {
-            "label": "Popup content",
+            "label": "Açılır pencere içeriği",
             "field": {
-              "label": "Content Item"
+              "label": "İçerik Maddesi"
             }
           }
         ]
       }
     },
     {
-      "label": "Hotspot label for assistive technologies",
-      "default": "Hotspot #num",
-      "description": "Will help announce what hotspot element has been navigated to if there is no header specified for a hotspot. #num can be used to replace the hotspot number."
+      "label": "Yardımcı teknolojiler (ekran okuma gibi) için Odak Noktası etiketi",
+      "default": "Odak Noktası #num",
+      "description": "Odak Noktası için başlık belirtilmemişse, hangi Odak Noktası öğesinin ne olduğunu duyurmaya yardımcı olur. Odak Noktası numarası yerine #num konulabilir."
     },
     {
-      "label": "Close button label for assistive technologies",
-      "default": "Close"
+      "label": "Yardımcı teknolojiler için kapatma butonu",
+      "default": "Kapat"
     }
   ]
 }
